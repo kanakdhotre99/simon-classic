@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+:root{
+    --clr-red-s1: #EB4235;
+    --clr-red-s2: #f38e86;
+    
+
+    --clr-yellow-s1: #FCBC05;
+    --clr-yellow-s2: #FDD769;
+
+    --clr-blue-s1: #3E85F4;
+    --clr-blue-s2: #8BB6F8;
+
+    --clr-green-s1: #32A953;
+    --clr-green-s2: #84CB98;
+
+    --clr-white: #FFF8EA;
+    --clr-black: #594545;
+
+    --ff-rubik: 'Climate Crisis', cursive;
+    --ff-ibm: 'IBM Plex Mono', monospace;
+    --ff-poppins: 'Poppins', sans-serif;
+
+    --fs-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+    --fs-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
+    --fs-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
+    --fs-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    --fs-xl: clamp(1.95rem, 1.56vw + 1.56rem, 2.81rem);
+    --fs-xxl: clamp(2.44rem, 2.38vw + 1.85rem, 3.75rem);
+    --fs-xxxl: clamp(3.05rem, 3.54vw + 2.17rem, 5rem);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+body{background-color: var(--clr-white); margin: 0 4rem;}
+
+h1{
+color: var(--clr-black); 
+font-family: var(--ff-poppins);
+font-size: var(--fs-xl);
+font-weight: 800;
+}
+
+h2{
+color: var(--clr-black);
+font-family: var(--ff-poppins);
+font-size: var(--fs-base);
+font-weight: 500;
+
+}
+
+button{
+  height: clamp(8rem, 5.7143rem + 11.4286vw, 16rem);
+  width: clamp(8rem, 5.7143rem + 11.4286vw, 16rem);
+  border-radius: 1rem;
+  border: 0;
+  cursor: pointer;
+  outline: transparent;
+  transition: all .1s linear 0s;
+}
+
+.btn-red {background-color: var(--clr-red-s1);}
+.btn-red:active {background-color: var(--clr-red-s2);}
+
+.btn-blue {background-color: var(--clr-blue-s1);}
+.btn-blue:active {background-color: var(--clr-blue-s2);}
+
+.btn-yellow {background-color: var(--clr-yellow-s1);}
+.btn-yellow:active {background-color: var(--clr-yellow-s2);}
+
+.btn-green {background-color: var(--clr-green-s1);}
+.btn-green:active {background-color: var(--clr-green-s2);}
+
+  
